@@ -1,16 +1,14 @@
-<router-outlet></router-outlet>
-
-<!-- <body
-  class="home page-template page-template-tmp-frontpage page-template-tmp-frontpage-php page page-id-99 elementor-default elementor-kit-2586"> -->
 <header>
   <div class="header">
     <div class="container">
-      <div style="display: flex;" class="row">
+      <div style="display: flex" class="row">
         <div class="col-md-3 col-xs-12">
           <div class="logo">
-            <a href="">
-              <img alt="" src="assets/logo.jpg" class=" lazyloaded">
-            </a>
+            <p>
+              <a href="">
+                <img alt="" src="assets/logo.jpg" class="lazyloaded" />
+              </a>
+            </p>
           </div>
         </div>
         <div class="col-md-3 hidden-xs">
@@ -37,8 +35,8 @@
             <h4 class="text-uppercase">Телефон</h4>
             <ul>
               <li>
-                <i class="fa fa-clock-o"></i>+38(095)-693-57-93<br>
-                +38(050)-773-29-50<br>+38(066)-052-87-55
+                <i class="fa fa-clock-o"></i>+38(095)-693-57-93<br />
+                +38(050)-773-29-50<br />+38(066)-052-87-55
               </li>
             </ul>
           </div>
@@ -49,8 +47,8 @@
             <ul>
               <li>
                 <i class="fa fa-clock-o"></i>
-                пн-пт з 09:00 - 18:00;<br>
-                сб-нд вихідний день<br>
+                пн-пт з 09:00 - 18:00;<br />
+                сб-нд вихідний день<br />
               </li>
             </ul>
           </div>
@@ -80,7 +78,12 @@
       <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#bs-navbar-collapse"
+            >
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -89,310 +92,597 @@
           </div>
           <div id="bs-navbar-collapse" class="collapse navbar-collapse">
             <ul id="menu-primary" class="nav navbar-nav" data-hover="dropdown">
-              <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1292"
-                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1292 dropdown">
-                <a title="Оціночні роботи" href="https://zemocenka.com/#" data-toggle="dropdown" class="dropdown-toggle"
-                  aria-haspopup="true">Оціночні роботи <span class="caret"></span></a>
-                <ul role="menu" class=" dropdown-menu">
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1321"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1321">
-                    <a title="Експертна оцінка нерухомого майна"
-                      href="https://zemocenka.com/ekspertna-ocinka-neruxomogo-majna/">Експертна
-                      оцінка нерухомого майна</a>
+              <li
+                itemscope="itemscope"
+                id="menu-item-1292"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1292 dropdown"
+              >
+                <a
+                  title="Оціночні роботи"
+                  [routerLink]="'/works-ground'"
+                  data-toggle="dropdown"
+                  class="dropdown-toggle"
+                  aria-haspopup="true"
+                  >Оціночні роботи <span class="caret"></span
+                ></a>
+                <ul role="menu" class="dropdown-menu">
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1321"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1321"
+                  >
+                    <a
+                      title="Експертна оцінка нерухомого майна"
+                      href="https://zem-price.web.app/ekspertna-ocinka-neruxomogo-majna/"
+                      >Експертна оцінка нерухомого майна</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1320"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320">
-                    <a title="Експертна оцінка земельних ділянок"
-                      href="https://zemocenka.com/ekspertna-ocenka-zemelnih-dilyanok/">Експертна
-                      оцінка земельних ділянок</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1320"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"
+                  >
+                    <a
+                      title="Експертна оцінка земельних ділянок"
+                      [routerLink]="'/works-ground'"
+                      >Експертна оцінка земельних ділянок</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2768"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2768">
-                    <a title="Оцінка квартири" href="https://zemocenka.com/otsenka-kvartyry/">Оцінка квартири</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2768"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2768"
+                  >
+                    <a
+                      title="Оцінка квартири"
+                      href="https://zem-price.web.app/otsenka-kvartyry/"
+                      >Оцінка квартири</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1314"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1314">
-                    <a title="Оцінка земель СГП"
-                      href="https://zemocenka.com/ocinka-zemel-silskogospodarskogo-priznachennya/">Оцінка
-                      земель СГП</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1314"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1314"
+                  >
+                    <a
+                      title="Оцінка земель СГП"
+                      href="https://zem-price.web.app/ocinka-zemel-silskogospodarskogo-priznachennya/"
+                      >Оцінка земель СГП</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1311"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1311">
-                    <a title="Кадастрова оцінка землі" href="https://zemocenka.com/kadastrova-ocinka-zemli/">Кадастрова
-                      оцінка
-                      землі</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1311"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1311"
+                  >
+                    <a
+                      title="Кадастрова оцінка землі"
+                      href="https://zem-price.web.app/kadastrova-ocinka-zemli/"
+                      >Кадастрова оцінка землі</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1322"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1322">
-                    <a title="Експертна оцінка рухомого майна"
-                      href="https://zemocenka.com/ekspertna-ocinka-ruxomogo-majna/">Експертна
-                      оцінка рухомого майна</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1322"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1322"
+                  >
+                    <a
+                      title="Експертна оцінка рухомого майна"
+                      href="https://zem-price.web.app/ekspertna-ocinka-ruxomogo-majna/"
+                      >Експертна оцінка рухомого майна</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2776"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2776">
-                    <a title="Оценка автомобиля" href="https://zemocenka.com/otsenka-avtomobylya/">Оценка
-                      автомобиля</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2776"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2776"
+                  >
+                    <a
+                      title="Оценка автомобиля"
+                      href="https://zem-price.web.app/otsenka-avtomobylya/"
+                      >Оценка автомобиля</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1315"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1315">
-                    <a title="Оцінка заміської нерухомості"
-                      href="https://zemocenka.com/ocinka-zamiskoyi-neruxomosti/">Оцінка
-                      заміської нерухомості</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1315"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1315"
+                  >
+                    <a
+                      title="Оцінка заміської нерухомості"
+                      href="https://zem-price.web.app/ocinka-zamiskoyi-neruxomosti/"
+                      >Оцінка заміської нерухомості</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1312"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1312">
-                    <a title="Оцінка приватного будинку" href="https://zemocenka.com/ocinka-privatnogo-budinku/">Оцінка
-                      приватного будинку</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1312"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1312"
+                  >
+                    <a
+                      title="Оцінка приватного будинку"
+                      href="https://zem-price.web.app/ocinka-privatnogo-budinku/"
+                      >Оцінка приватного будинку</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1317"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1317">
-                    <a title="Оцінка частки в квартирі" href="https://zemocenka.com/ocinka-chastki-v-kvartiri/">Оцінка
-                      частки в
-                      квартирі</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1317"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1317"
+                  >
+                    <a
+                      title="Оцінка частки в квартирі"
+                      href="https://zem-price.web.app/ocinka-chastki-v-kvartiri/"
+                      >Оцінка частки в квартирі</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1310"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1310">
-                    <a title="Оцінка комерційної нерухомості"
-                      href="https://zemocenka.com/ocinka-komercijnoyi-neruxomosti/">Оцінка
-                      комерційної нерухомості</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1310"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1310"
+                  >
+                    <a
+                      title="Оцінка комерційної нерухомості"
+                      href="https://zem-price.web.app/ocinka-komercijnoyi-neruxomosti/"
+                      >Оцінка комерційної нерухомості</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1316"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1316">
-                    <a title="Оцінка майна підприємства" href="https://zemocenka.com/ocinka-majna-pidpriyemstva/">Оцінка
-                      майна
-                      підприємства</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1316"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1316"
+                  >
+                    <a
+                      title="Оцінка майна підприємства"
+                      href="https://zem-price.web.app/ocinka-majna-pidpriyemstva/"
+                      >Оцінка майна підприємства</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1313"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1313">
-                    <a title="Оцінка майна при розлученні"
-                      href="https://zemocenka.com/ocinka-majna-pri-rozluchenni/">Оцінка майна
-                      при розлученні</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1313"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1313"
+                  >
+                    <a
+                      title="Оцінка майна при розлученні"
+                      href="https://zem-price.web.app/ocinka-majna-pri-rozluchenni/"
+                      >Оцінка майна при розлученні</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1309"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1309">
-                    <a title="Оцінка заставного майна" href="https://zemocenka.com/ocinka-zastavnogo-majna/">Оцінка
-                      заставного
-                      майна</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1309"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1309"
+                  >
+                    <a
+                      title="Оцінка заставного майна"
+                      href="https://zem-price.web.app/ocinka-zastavnogo-majna/"
+                      >Оцінка заставного майна</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1308"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1308">
-                    <a title="Оцінка майна для суду" href="https://zemocenka.com/ocinka-majna-dlya-sudu/">Оцінка майна
-                      для
-                      суду</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1308"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1308"
+                  >
+                    <a
+                      title="Оцінка майна для суду"
+                      href="https://zem-price.web.app/ocinka-majna-dlya-sudu/"
+                      >Оцінка майна для суду</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1319"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1319">
-                    <a title="Оцінка майна боржника" href="https://zemocenka.com/ocinka-majna-borzhnika/">Оцінка майна
-                      боржника</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1319"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1319"
+                  >
+                    <a
+                      title="Оцінка майна боржника"
+                      href="https://zem-price.web.app/ocinka-majna-borzhnika/"
+                      >Оцінка майна боржника</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1318"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1318">
-                    <a title="Оцінка збитку від затоплення квартири"
-                      href="https://zemocenka.com/ocinka-zbitku-vid-zatoplennya-kvartiri/">Оцінка
-                      збитку від затоплення квартири</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1318"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1318"
+                  >
+                    <a
+                      title="Оцінка збитку від затоплення квартири"
+                      href="https://zem-price.web.app/ocinka-zbitku-vid-zatoplennya-kvartiri/"
+                      >Оцінка збитку від затоплення квартири</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2045"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2045">
-                    <a title="Оцінка збитків від пожежі"
-                      href="https://zemocenka.com/ekspertna-otsinka-zbytkiv-vid-pozhezhi/">Оцінка
-                      збитків від пожежі</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2045"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2045"
+                  >
+                    <a
+                      title="Оцінка збитків від пожежі"
+                      href="https://zem-price.web.app/ekspertna-otsinka-zbytkiv-vid-pozhezhi/"
+                      >Оцінка збитків від пожежі</a
+                    >
                   </li>
                 </ul>
               </li>
-              <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1294"
-                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1294 dropdown">
-                <a title="Землевпорядні роботи" href="https://zemocenka.com/#" data-toggle="dropdown"
-                  class="dropdown-toggle" aria-haspopup="true">Землевпорядні роботи <span class="caret"></span></a>
+              <li
+                itemscope="itemscope"
+                id="menu-item-1294"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1294 dropdown"
+              >
+                <a
+                  title="Землевпорядні роботи"
+                  [routerLink]="'/land'"
+                  data-toggle="dropdown"
+                  class="dropdown-toggle"
+                  aria-haspopup="true"
+                  >Землевпорядні роботи <span class="caret"></span
+                ></a>
                 <ul role="menu" class="dropdown-menu dropdownhover-bottom">
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2164"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2164">
-                    <a title="Технічна документація із землеустрою"
-                      href="https://zemocenka.com/tehnichna-dokumentatsiya-iz-zemleustroyu/">Технічна
-                      документація із землеустрою</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2164"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2164"
+                  >
+                    <a
+                      title="Технічна документація із землеустрою"
+                      href="https://zem-price.web.app/tehnichna-dokumentatsiya-iz-zemleustroyu/"
+                      >Технічна документація із землеустрою</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1324"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1324">
-                    <a title="Проект відведення земельної ділянки"
-                      href="https://zemocenka.com/proekt-vidvedennya-zemelnoyi-dilyanky/">Проект
-                      відведення земельної ділянки</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1324"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1324"
+                  >
+                    <a
+                      title="Проект відведення земельної ділянки"
+                      href="https://zem-price.web.app/proekt-vidvedennya-zemelnoyi-dilyanky/"
+                      >Проект відведення земельної ділянки</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1325"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1325">
-                    <a title="Проект на зміну цільового призначення землі"
-                      href="https://zemocenka.com/proekt-na-zminu-cilovogo-priznachennya-zemli/">Проект
-                      на зміну цільового призначення землі</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1325"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1325"
+                  >
+                    <a
+                      title="Проект на зміну цільового призначення землі"
+                      href="https://zem-price.web.app/proekt-na-zminu-cilovogo-priznachennya-zemli/"
+                      >Проект на зміну цільового призначення землі</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1609"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1609">
-                    <a title="Кадастровий план земельної ділянки"
-                      href="https://zemocenka.com/kadastrovyj-plan-zemelnoji-dilyanky/">Кадастровий
-                      план земельної ділянки</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1609"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1609"
+                  >
+                    <a
+                      title="Кадастровий план земельної ділянки"
+                      href="https://zem-price.web.app/kadastrovyj-plan-zemelnoji-dilyanky/"
+                      >Кадастровий план земельної ділянки</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2549"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2549">
-                    <a title="Оформлення земельної частки (паю)"
-                      href="https://zemocenka.com/oformlennya-zemelnoyi-chastky-payu/">Оформлення
-                      земельної частки (паю)</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2549"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2549"
+                  >
+                    <a
+                      title="Оформлення земельної частки (паю)"
+                      href="https://zem-price.web.app/oformlennya-zemelnoyi-chastky-payu/"
+                      >Оформлення земельної частки (паю)</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2335"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2335">
-                    <a title="Нормативно грошова оцінка"
-                      href="https://zemocenka.com/normatyvna-otsinka-zemelnyh-dilyanok/">Нормативно
-                      грошова оцінка</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2335"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2335"
+                  >
+                    <a
+                      title="Нормативно грошова оцінка"
+                      href="https://zem-price.web.app/normatyvna-otsinka-zemelnyh-dilyanok/"
+                      >Нормативно грошова оцінка</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2550"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2550">
-                    <a title="Витяг з технічної документації про нормативно-грошову оцінку земельної ділянки"
-                      href="https://zemocenka.com/vytyag-z-tehnichnoyi-dokumentatsiyi-pro-normatyvno-groshovu-otsinku-zemelnoyi-dilyanky/">Витяг
-                      з технічної документації про нормативно-грошову оцінку земельної
-                      ділянки</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2550"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2550"
+                  >
+                    <a
+                      title="Витяг з технічної документації про нормативно-грошову оцінку земельної ділянки"
+                      href="https://zem-price.web.app/vytyag-z-tehnichnoyi-dokumentatsiyi-pro-normatyvno-groshovu-otsinku-zemelnoyi-dilyanky/"
+                      >Витяг з технічної документації про нормативно-грошову
+                      оцінку земельної ділянки</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1323"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1323">
-                    <a title="Геодезичні роботи" href="https://zemocenka.com/geodezichni-roboti/">Геодезичні
-                      роботи</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1323"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1323"
+                  >
+                    <a
+                      title="Геодезичні роботи"
+                      href="https://zem-price.web.app/geodezichni-roboti/"
+                      >Геодезичні роботи</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2547"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2547">
-                    <a title="Винос меж земельної ділянки в натурі"
-                      href="https://zemocenka.com/vynos-mezh-zemelnoyi-dilyanky-v-naturi/">Винос
-                      меж земельної ділянки в натурі</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2547"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2547"
+                  >
+                    <a
+                      title="Винос меж земельної ділянки в натурі"
+                      href="https://zem-price.web.app/vynos-mezh-zemelnoyi-dilyanky-v-naturi/"
+                      >Винос меж земельної ділянки в натурі</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2530"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2530">
-                    <a title="Витяг з Державного земельного кадастру"
-                      href="https://zemocenka.com/vytyag-z-derzhavnogo-zemelnogo-kadastru/">Витяг
-                      з Державного земельного кадастру</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2530"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2530"
+                  >
+                    <a
+                      title="Витяг з Державного земельного кадастру"
+                      href="https://zem-price.web.app/vytyag-z-derzhavnogo-zemelnogo-kadastru/"
+                      >Витяг з Державного земельного кадастру</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2548"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2548">
-                    <a title="Виправлення технічної помилки ДЗК"
-                      href="https://zemocenka.com/vypravlennya-tehnichnoyi-pomylky-dzk/">Виправлення
-                      технічної помилки ДЗК</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2548"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2548"
+                  >
+                    <a
+                      title="Виправлення технічної помилки ДЗК"
+                      href="https://zem-price.web.app/vypravlennya-tehnichnoyi-pomylky-dzk/"
+                      >Виправлення технічної помилки ДЗК</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2546"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2546">
-                    <a title="Черговий кадастровий план земельної ділянки"
-                      href="https://zemocenka.com/chergovyj-kadastrovyj-plan-zemelnoyi-dilyanky/">Черговий
-                      кадастровий план земельної ділянки</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2546"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2546"
+                  >
+                    <a
+                      title="Черговий кадастровий план земельної ділянки"
+                      href="https://zem-price.web.app/chergovyj-kadastrovyj-plan-zemelnoyi-dilyanky/"
+                      >Черговий кадастровий план земельної ділянки</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2531"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2531">
-                    <a title="Звіт про якісну характеристику ґрунтового покриву земельної ділянки"
-                      href="https://zemocenka.com/zvit-pro-yakisnu-harakterystyku-gruntovogo-pokryvu-zemelnoyi-dilyanky/">Звіт
-                      про якісну характеристику ґрунтового покриву земельної ділянки</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2531"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2531"
+                  >
+                    <a
+                      title="Звіт про якісну характеристику ґрунтового покриву земельної ділянки"
+                      href="https://zem-price.web.app/zvit-pro-yakisnu-harakterystyku-gruntovogo-pokryvu-zemelnoyi-dilyanky/"
+                      >Звіт про якісну характеристику ґрунтового покриву
+                      земельної ділянки</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2532"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2532">
-                    <a title="Звіт про сільськогосподарські втрати спричинені вилученням сільськогосподарських угідь"
-                      href="https://zemocenka.com/zvit-pro-silskogospodarski-vtraty-sprychyneni-vyluchennyam-silskogospodarskyh-ugid/">Звіт
-                      про сільськогосподарські втрати спричинені вилученням
-                      сільськогосподарських угідь</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2532"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2532"
+                  >
+                    <a
+                      title="Звіт про сільськогосподарські втрати спричинені вилученням сільськогосподарських угідь"
+                      href="https://zem-price.web.app/zvit-pro-silskogospodarski-vtraty-sprychyneni-vyluchennyam-silskogospodarskyh-ugid/"
+                      >Звіт про сільськогосподарські втрати спричинені
+                      вилученням сільськогосподарських угідь</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2545"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2545">
-                    <a title="План поділу земельної ділянки"
-                      href="https://zemocenka.com/plan-podilu-zemelnoyi-dilyanky/">План поділу
-                      земельної ділянки</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2545"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2545"
+                  >
+                    <a
+                      title="План поділу земельної ділянки"
+                      href="https://zem-price.web.app/plan-podilu-zemelnoyi-dilyanky/"
+                      >План поділу земельної ділянки</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1617"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1617">
-                    <a title="Обмінний файл xml" href="https://zemocenka.com/obminni-fajly-xml/">Обмінний файл xml</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1617"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1617"
+                  >
+                    <a
+                      title="Обмінний файл xml"
+                      href="https://zem-price.web.app/obminni-fajly-xml/"
+                      >Обмінний файл xml</a
+                    >
                   </li>
                 </ul>
               </li>
-              <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1295"
-                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1295 dropdown">
-                <a title="Послуги БТІ" href="https://zemocenka.com/#" data-toggle="dropdown" class="dropdown-toggle"
-                  aria-haspopup="true">Послуги БТІ <span class="caret"></span></a>
-                <ul role="menu" class=" dropdown-menu">
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1330"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1330">
-                    <a title="Послуги БТI" href="https://zemocenka.com/poslugi-bti/">Послуги
-                      БТI</a>
+              <li
+                itemscope="itemscope"
+                id="menu-item-1295"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1295 dropdown"
+              >
+                <a
+                  title="Послуги БТІ"
+                  [routerLink]="'/bti'"
+                  data-toggle="dropdown"
+                  class="dropdown-toggle"
+                  aria-haspopup="true"
+                  >Послуги БТІ <span class="caret"></span
+                ></a>
+                <ul role="menu" class="dropdown-menu">
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1330"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1330"
+                  >
+                    <a
+                      title="Послуги БТI"
+                      href="https://zem-price.web.app/poslugi-bti/"
+                      >Послуги БТI</a
+                    >
                   </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1329"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1329">
-                    <a title="Виготовлення технічного паспорту БТІ"
-                      href="https://zemocenka.com/vigotovlennya-texnichnix-pasportiv-bti/">Виготовлення
-                      технічного паспорту БТІ</a>
-                  </li>
-                </ul>
-              </li>
-              <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2052"
-                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2052 dropdown">
-                <a title="Супровід угод" href="https://zemocenka.com/#" data-toggle="dropdown" class="dropdown-toggle"
-                  aria-haspopup="true">Супровід угод <span class="caret"></span></a>
-                <ul role="menu" class=" dropdown-menu">
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2074"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2074">
-                    <a title="Супровід угод з нерухомістю на первинному ринку"
-                      href="https://zemocenka.com/suprovid-ugod-z-neruhomistyu-na-pervynnomu-rynku/">Супровід
-                      угод з нерухомістю на первинному ринку</a>
-                  </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2073"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2073">
-                    <a title="Супровід угод з нерухомістю на вторинному ринку"
-                      href="https://zemocenka.com/suprovid-ugod-z-neruhomistyu-na-vtorynnomu-rynku/">Супровід
-                      угод з нерухомістю на вторинному ринку</a>
-                  </li>
-                </ul>
-              </li>
-              <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2197"
-                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2197 dropdown">
-                <a title="Реєстраційні послуги" href="https://zemocenka.com/#" data-toggle="dropdown"
-                  class="dropdown-toggle" aria-haspopup="true">Реєстраційні
-                  послуги <span class="caret"></span></a>
-                <ul role="menu" class=" dropdown-menu">
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2202"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2202">
-                    <a title="Державна Реєстрація права власності на нерухоме майно"
-                      href="https://zemocenka.com/derzhavna-reyestratsiya-prava-vlasnosti-na-neruhome-majno/">Державна
-                      Реєстрація права власності на нерухоме майно</a>
-                  </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2199"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2199">
-                    <a title="Інформація з ДРРП на нерухоме майно"
-                      href="https://zemocenka.com/informatsiya-z-drrp-na-neruhome-majno/">Інформація
-                      з ДРРП на нерухоме майно</a>
-                  </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2200"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2200">
-                    <a title="Внесення змін та виправлення технічних помилок"
-                      href="https://zemocenka.com/vnesennya-zmin-ta-vypravlennya-tehnichnyh-pomylok/">Внесення
-                      змін та виправлення технічних помилок</a>
-                  </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2203"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2203">
-                    <a title="Юридичні особи, ФОП, громадські формування"
-                      href="https://zemocenka.com/derzhreyestratsiya-yurosib-ta-fop/">Юридичні
-                      особи, ФОП, громадські формування</a>
-                  </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2201"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2201">
-                    <a title="Витяг з ЄДР юридичних осіб, ФОП та громадських формувань"
-                      href="https://zemocenka.com/vytyag-z-yedr-yurydychnyh-osib-fop-ta-gromadskyh-formuvan/">Витяг
-                      з ЄДР юридичних осіб, ФОП та громадських формувань</a>
-                  </li>
-                  <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-2198"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2198">
-                    <a title="Обтяження та інше речове право"
-                      href="https://zemocenka.com/obtyazhennya-ta-inshe-rechove-pravo/">Обтяження
-                      та інше речове право</a>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-1329"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1329"
+                  >
+                    <a
+                      title="Виготовлення технічного паспорту БТІ"
+                      href="https://zem-price.web.app/vigotovlennya-texnichnix-pasportiv-bti/"
+                      >Виготовлення технічного паспорту БТІ</a
+                    >
                   </li>
                 </ul>
               </li>
-              <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1296"
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1296"><a title="Прайс"
-                  href="https://zemocenka.com/vartist-posluh/">Прайс</a></li>
-              <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1290"
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1290"><a
-                  title="Ліцензії та свідоцтва" href="https://zemocenka.com/litsenziji-ta-svidotstva/">Ліцензії та
-                  свідоцтва</a>
+              <li
+                itemscope="itemscope"
+                id="menu-item-2052"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2052 dropdown"
+              >
+                <a
+                  title="Супровід угод"
+                  [routerLink]="'/deals'"
+                  data-toggle="dropdown"
+                  class="dropdown-toggle"
+                  aria-haspopup="true"
+                  >Супровід угод <span class="caret"></span
+                ></a>
+                <ul role="menu" class="dropdown-menu">
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2074"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2074"
+                  >
+                    <a
+                      title="Супровід угод з нерухомістю на первинному ринку"
+                      href="https://zem-price.web.app/suprovid-ugod-z-neruhomistyu-na-pervynnomu-rynku/"
+                      >Супровід угод з нерухомістю на первинному ринку</a
+                    >
+                  </li>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2073"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2073"
+                  >
+                    <a
+                      title="Супровід угод з нерухомістю на вторинному ринку"
+                      href="https://zem-price.web.app/suprovid-ugod-z-neruhomistyu-na-vtorynnomu-rynku/"
+                      >Супровід угод з нерухомістю на вторинному ринку</a
+                    >
+                  </li>
+                </ul>
               </li>
-              <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1289"
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1289"><a title="Контакти"
-                  href="https://zemocenka.com/kontakty/">Контакти</a></li>
+              <li
+                itemscope="itemscope"
+                id="menu-item-2197"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2197 dropdown"
+              >
+                <a
+                  title="Реєстраційні послуги"
+                  [routerLink]="'/register'"
+                  data-toggle="dropdown"
+                  class="dropdown-toggle"
+                  aria-haspopup="true"
+                  >Реєстраційні послуги <span class="caret"></span
+                ></a>
+                <ul role="menu" class="dropdown-menu">
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2202"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2202"
+                  >
+                    <a
+                      title="Державна Реєстрація права власності на нерухоме майно"
+                      href="https://zem-price.web.app/derzhavna-reyestratsiya-prava-vlasnosti-na-neruhome-majno/"
+                      >Державна Реєстрація права власності на нерухоме майно</a
+                    >
+                  </li>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2199"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2199"
+                  >
+                    <a
+                      title="Інформація з ДРРП на нерухоме майно"
+                      href="https://zem-price.web.app/informatsiya-z-drrp-na-neruhome-majno/"
+                      >Інформація з ДРРП на нерухоме майно</a
+                    >
+                  </li>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2200"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2200"
+                  >
+                    <a
+                      title="Внесення змін та виправлення технічних помилок"
+                      href="https://zem-price.web.app/vnesennya-zmin-ta-vypravlennya-tehnichnyh-pomylok/"
+                      >Внесення змін та виправлення технічних помилок</a
+                    >
+                  </li>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2203"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2203"
+                  >
+                    <a
+                      title="Юридичні особи, ФОП, громадські формування"
+                      href="https://zem-price.web.app/derzhreyestratsiya-yurosib-ta-fop/"
+                      >Юридичні особи, ФОП, громадські формування</a
+                    >
+                  </li>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2201"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2201"
+                  >
+                    <a
+                      title="Витяг з ЄДР юридичних осіб, ФОП та громадських формувань"
+                      href="https://zem-price.web.app/vytyag-z-yedr-yurydychnyh-osib-fop-ta-gromadskyh-formuvan/"
+                      >Витяг з ЄДР юридичних осіб, ФОП та громадських
+                      формувань</a
+                    >
+                  </li>
+                  <li
+                    itemscope="itemscope"
+                    id="menu-item-2198"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2198"
+                  >
+                    <a
+                      title="Обтяження та інше речове право"
+                      href="https://zem-price.web.app/obtyazhennya-ta-inshe-rechove-pravo/"
+                      >Обтяження та інше речове право</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li
+                itemscope="itemscope"
+                id="menu-item-1296"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1296"
+              >
+                <a title="Прайс" [routerLink]="'/price'">Прайс</a>
+              </li>
+              <li
+                itemscope="itemscope"
+                id="menu-item-1290"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1290"
+              >
+                <a title="Ліцензії та свідоцтва" [routerLink]="'/license'"
+                  >Ліцензії та свідоцтва</a
+                >
+              </li>
+              <li
+                itemscope="itemscope"
+                id="menu-item-1289"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1289"
+              >
+                <a title="Контакти" [routerLink]="'/contacts'">Контакти</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -400,648 +690,54 @@
     </div>
   </div>
 </header>
+<router-outlet></router-outlet>
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: none"></div>
+<div id="lightbox" class="lightbox" style="display: none">
+  <div class="lb-outerContainer">
+    <div class="lb-container">
+      <img
+        class="lb-image"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+      />
+      <div class="lb-nav">
+        <a class="lb-prev" href="https://zem-price.web.app/"></a
+        ><a class="lb-next" href="https://zem-price.web.app/"></a>
+      </div>
+      <div class="lb-loader"><a class="lb-cancel"></a></div>
+    </div>
+  </div>
+  <div class="lb-dataContainer">
+    <div class="lb-data">
+      <div class="lb-details">
+        <span class="lb-caption"></span><span class="lb-number"></span>
+      </div>
+      <div class="lb-closeContainer"><a class="lb-close"></a></div>
+    </div>
+  </div>
+</div>
 <div class="page">
-  <section class="background-image">
-    <div class="bg-pattern">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <h2 class="h1 header-title text-uppercase">Незалежна оцінка <br>нерухомості</h2>
-            <ul class="front-price">
-              <li>Земельна ділянка</li>
-              <li>Квартира</li>
-              <li>Житловий або садовий будинок</li>
-            </ul>
-            <ul class="delivery">
-              <li>Відправка Новою Поштою в день виконання звіту.</li>
-              <li>Самовивіз з офісу біля метро Університет.</li>
-            </ul>
-          </div>
-          <!-- <div class="col-md-5">
-              <div class="conversation-form">
-                <div class="sub-form">
-                  <h4 class="text-uppercase text-center">Заявка на оцінку нерухомості</h4>
-                  <div class="front-form">
-                    <div role="form" class="wpcf7" id="wpcf7-f1305-o1" lang="ru-RU" dir="ltr">
-                      <div class="screen-reader-response">
-                        <p role="status" aria-live="polite" aria-atomic="true"></p>
-                        <ul></ul>
-                      </div>
-                      <form action="https://zemocenka.com/#wpcf7-f1305-o1" method="post" class="wpcf7-form init"
-                        novalidate="novalidate" data-status="init">
-                        <div style="display: none;">
-                          <input type="hidden" name="_wpcf7" value="1305">
-                          <input type="hidden" name="_wpcf7_version" value="5.4">
-                          <input type="hidden" name="_wpcf7_locale" value="ru_RU">
-                          <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1305-o1">
-                          <input type="hidden" name="_wpcf7_container_post" value="0">
-                          <input type="hidden" name="_wpcf7_posted_data_hash" value="">
-                        </div>
-                        <p><label><span class="wpcf7-form-control-wrap username"><input type="text" name="username"
-                                value="" size="40"
-                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-field"
-                                aria-required="true" aria-invalid="false"
-                                placeholder="Ваше ім&#39;я"></span></label><label><span
-                              class="wpcf7-form-control-wrap userphone"><input type="tel" name="userphone" value=""
-                                size="40"
-                                class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-field"
-                                aria-required="true" aria-invalid="false"
-                                placeholder="Номер телефону"></span></label><label><span
-                              class="wpcf7-form-control-wrap email"><input type="text" name="email" value="" size="40"
-                                class="wpcf7-form-control wpcf7-text form-field" aria-invalid="false"
-                                placeholder="Ваш e-mail"></span></label><label class="text-center"><input type="submit"
-                              value="Замовити оцінку" class="wpcf7-form-control wpcf7-submit"><span
-                              class="ajax-loader"></span></label></p>
-                        <div class="wpcf7-response-output" aria-hidden="true"></div>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="frontpage services">
-    <div class="bg-pattern">
-      <div class="container">
-        <div class="col-md-3">
-          <div>
-            <div class="service-item">
-              <a href="https://zemocenka.com/ekspertna-ocenka-zemelnih-dilyanok/" class="service-item-image"
-                style="background-image: url(https://zemocenka.com/wp-content/uploads/2015/03/Otsinka-zemelnoyi-dilyanky-350x230.jpg);">
-                <i class="fa fa-eye"></i>
-              </a>
-              <h4 style="height: 54px;">Експертна оцінка земельних ділянок</h4>
-              <!--<span itemprop="description">Оценка квартиры от 3 000 р</span>-->
-              <!--<div class="service-item-stars">
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-							</div>-->
-              <div class="service-item-price">
-                <!-- <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-									<i class="fa fa-tags"></i> <span itemprop="price">0.00</span> <span itemprop="priceCurrency">UAH</span>
-								</div> -->
-                <br>
-                <a href="https://zemocenka.com/ekspertna-ocenka-zemelnih-dilyanok/" class="button">
-                  Детальніше </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div>
-            <div class="service-item">
-              <a href="https://zemocenka.com/ekspertna-ocinka-neruxomogo-majna/" class="service-item-image"
-                style="background-image: url(https://zemocenka.com/wp-content/uploads/2015/03/Оцінка-нерухомого-майна-350x230.jpg);">
-                <i class="fa fa-eye"></i>
-              </a>
-              <h4 style="height: 54px;">Експертна оцінка нерухомого майна</h4>
-              <!--<span itemprop="description">Оценка квартиры от 3 000 р</span>-->
-              <!--<div class="service-item-stars">
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-							</div>-->
-              <div class="service-item-price">
-                <!-- <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-									<i class="fa fa-tags"></i> <span itemprop="price">0.00</span> <span itemprop="priceCurrency">UAH</span>
-								</div> -->
-                <br>
-                <a href="https://zemocenka.com/ekspertna-ocinka-neruxomogo-majna/" class="button">
-                  Детальніше </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div>
-            <div class="service-item">
-              <a href="https://zemocenka.com/ocinka-privatnogo-budinku/" class="service-item-image"
-                style="background-image: url(https://zemocenka.com/wp-content/uploads/2017/01/Оцінка-приватного-будинку-350x230.jpg);">
-                <i class="fa fa-eye"></i>
-              </a>
-              <h4 style="height: 54px;">Оцінка приватного будинку</h4>
-              <!--<span itemprop="description">Оценка квартиры от 3 000 р</span>-->
-              <!--<div class="service-item-stars">
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-							</div>-->
-              <div class="service-item-price">
-                <!-- <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-									<i class="fa fa-tags"></i> <span itemprop="price">0.00</span> <span itemprop="priceCurrency">UAH</span>
-								</div> -->
-                <br>
-                <a href="https://zemocenka.com/ocinka-privatnogo-budinku/" class="button">
-                  Детальніше </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div>
-            <div class="service-item">
-              <a href="https://zemocenka.com/ocinka-zemel-silskogospodarskogo-priznachennya/" class="service-item-image"
-                style="background-image: url(https://zemocenka.com/wp-content/uploads/2017/01/Оцінка-земель-сільськогосподарського-значення-350x230.jpg);">
-                <i class="fa fa-eye"></i>
-              </a>
-              <h4 style="height: 54px;">Оцінка земель сільськогосподарського призначення</h4>
-              <!--<span itemprop="description">Оценка квартиры от 3 000 р</span>-->
-              <!--<div class="service-item-stars">
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-							</div>-->
-              <div class="service-item-price">
-                <!-- <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-									<i class="fa fa-tags"></i> <span itemprop="price">0.00</span> <span itemprop="priceCurrency">UAH</span>
-								</div> -->
-                <br>
-                <a href="https://zemocenka.com/ocinka-zemel-silskogospodarskogo-priznachennya/" class="button">
-                  Детальніше </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div>
-            <div class="service-item">
-              <a href="https://zemocenka.com/ekspertna-ocinka-zbitkiv/" class="service-item-image"
-                style="background-image: url(https://zemocenka.com/wp-content/uploads/2015/03/Ekspertna-otsinka-zbytkiv-350x230.jpg);">
-                <i class="fa fa-eye"></i>
-              </a>
-              <h4 style="height: 54px;">Експертна оцінка збитків</h4>
-              <!--<span itemprop="description">Оценка квартиры от 3 000 р</span>-->
-              <!--<div class="service-item-stars">
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-							</div>-->
-              <div class="service-item-price">
-                <!-- <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-									<i class="fa fa-tags"></i> <span itemprop="price">0.00</span> <span itemprop="priceCurrency">UAH</span>
-								</div> -->
-                <br>
-                <a href="https://zemocenka.com/ekspertna-ocinka-zbitkiv/" class="button">
-                  Детальніше </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div>
-            <div class="service-item">
-              <a href="https://zemocenka.com/poslugi-bti/" class="service-item-image"
-                style="background-image: url(https://zemocenka.com/wp-content/uploads/2015/03/Poslugy-BTI-350x230.jpg);">
-                <i class="fa fa-eye"></i>
-              </a>
-              <h4 style="height: 54px;">Послуги БТI</h4>
-              <!--<span itemprop="description">Оценка квартиры от 3 000 р</span>-->
-              <!--<div class="service-item-stars">
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-							</div>-->
-              <div class="service-item-price">
-                <!-- <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-									<i class="fa fa-tags"></i> <span itemprop="price">0.00</span> <span itemprop="priceCurrency">UAH</span>
-								</div> -->
-                <br>
-                <a href="https://zemocenka.com/poslugi-bti/" class="button">
-                  Детальніше </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div>
-            <div class="service-item">
-              <a href="https://zemocenka.com/proekt-vidvedennya-zemelnoyi-dilyanky/" class="service-item-image"
-                style="background-image: url(https://zemocenka.com/wp-content/uploads/2015/03/Proekt-zemelnoyi-dilyanky-350x230.jpg);">
-                <i class="fa fa-eye"></i>
-              </a>
-              <h4 style="height: 54px;">Проект відведення земельної ділянки</h4>
-              <!--<span itemprop="description">Оценка квартиры от 3 000 р</span>-->
-              <!--<div class="service-item-stars">
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-							</div>-->
-              <div class="service-item-price">
-                <!-- <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-									<i class="fa fa-tags"></i> <span itemprop="price">0.00</span> <span itemprop="priceCurrency">UAH</span>
-								</div> -->
-                <br>
-                <a href="https://zemocenka.com/proekt-vidvedennya-zemelnoyi-dilyanky/" class="button">
-                  Детальніше </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div>
-            <div class="service-item">
-              <a href="https://zemocenka.com/proekt-na-zminu-cilovogo-priznachennya-zemli/" class="service-item-image"
-                style="background-image: url(https://zemocenka.com/wp-content/uploads/2015/03/Проект-земельного-участка-изменение-целевого-назначения-350x230.jpg);">
-                <i class="fa fa-eye"></i>
-              </a>
-              <h4 style="height: 54px;">Проект на зміну цільового призначення землі</h4>
-              <!--<span itemprop="description">Оценка квартиры от 3 000 р</span>-->
-              <!--<div class="service-item-stars">
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-							</div>-->
-              <div class="service-item-price">
-                <!-- <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-									<i class="fa fa-tags"></i> <span itemprop="price">0.00</span> <span itemprop="priceCurrency">UAH</span>
-								</div> -->
-                <br>
-                <a href="https://zemocenka.com/proekt-na-zminu-cilovogo-priznachennya-zemli/" class="button">
-                  Детальніше </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <section class="choose-us frontpage">
-    <div class="container">
-      <h3 class="text-center text-uppercase">
-        Чому варто обрати саме нас </h3>
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <div class="item">
-            <h4>Доступна ціна</h4>
-            <p>Ми пропонуємо краще співвідношення ціни та якості.</p>
-          </div>
-        </div>
-        <div class="col-md-4 text-center">
-          <div class="item">
-            <h4>Експрес виконання</h4>
-            <p>Після узгодження заявки на проведення робіт, ми виконуємо її в обговорених часових
-              рамках.</p>
-          </div>
-        </div>
-        <div class="col-md-4 text-center">
-          <div class="item">
-            <h4>Зручно</h4>
-            <ul>
-              <li>Швидке виконання;</li>
-              <li>Доставка та самовивіз;</li>
-              <li>Індивідуальний підхід;</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="testimonials frontpage">
-    <div class="container">
-      <h3 class="text-center text-uppercase">
-        Відгуки клієнтів про нас </h3>
-      <div class="row">
-        <div class="col-md-3">
-          <div>
-            <div class="service-item">
-              <a href="https://zemocenka.com/wp-content/uploads/2017/05/%D0%92%D1%96%D0%B4%D0%B3%D1%83%D0%BA-%D0%B1%D1%83%D0%B4%D1%96%D0%B2%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%97-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D1%96%D1%97-%D0%91%D1%96%D0%BB%D0%B8%D0%B9-%D0%A8%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4.png"
-                class="service-item-image" data-lightbox="roadtrip">
-                <img width="228" height="300" alt="" loading="lazy"
-                  data-srcset="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-будівельної-компанії-Білий-Шоколад-228x300.png 228w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-будівельної-компанії-Білий-Шоколад-114x150.png 114w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-будівельної-компанії-Білий-Шоколад.png 679w"
-                  data-src="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-будівельної-компанії-Білий-Шоколад-228x300.png"
-                  data-sizes="(max-width: 228px) 100vw, 228px"
-                  class="attachment-medium size-medium wp-post-image lazyloaded"
-                  src="./Інститут незалежної експертної оцінки рухомого та нерухомого майна_files/Відгук-будівельної-компанії-Білий-Шоколад-228x300.png"
-                  sizes="(max-width: 228px) 100vw, 228px"
-                  srcset="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-будівельної-компанії-Білий-Шоколад-228x300.png 228w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-будівельної-компанії-Білий-Шоколад-114x150.png 114w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-будівельної-компанії-Білий-Шоколад.png 679w"><noscript><img
-                    width="228" height="300"
-                    src="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-будівельної-компанії-Білий-Шоколад-228x300.png"
-                    class="attachment-medium size-medium wp-post-image" alt="" loading="lazy"
-                    srcset="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-будівельної-компанії-Білий-Шоколад-228x300.png 228w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-будівельної-компанії-Білий-Шоколад-114x150.png 114w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-будівельної-компанії-Білий-Шоколад.png 679w"
-                    sizes="(max-width: 228px) 100vw, 228px" /></noscript> </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div>
-            <div class="service-item">
-              <a href="https://zemocenka.com/wp-content/uploads/2017/05/%D0%92%D1%96%D0%B4%D0%B3%D1%83%D0%BA-%D0%BD%D0%BE%D1%82%D0%B0%D1%80%D1%96%D1%83%D1%81%D0%B0-%D0%9B%D1%8E%D0%B7%D0%BD%D1%8F%D0%BA.png"
-                class="service-item-image" data-lightbox="roadtrip">
-                <img width="228" height="300" alt="" loading="lazy"
-                  data-srcset="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Люзняк-228x300.png 228w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Люзняк-114x150.png 114w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Люзняк.png 679w"
-                  data-src="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Люзняк-228x300.png"
-                  data-sizes="(max-width: 228px) 100vw, 228px"
-                  class="attachment-medium size-medium wp-post-image lazyloaded"
-                  src="./Інститут незалежної експертної оцінки рухомого та нерухомого майна_files/Відгук-нотаріуса-Люзняк-228x300.png"
-                  sizes="(max-width: 228px) 100vw, 228px"
-                  srcset="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Люзняк-228x300.png 228w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Люзняк-114x150.png 114w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Люзняк.png 679w"><noscript><img
-                    width="228" height="300"
-                    src="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Люзняк-228x300.png"
-                    class="attachment-medium size-medium wp-post-image" alt="" loading="lazy"
-                    srcset="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Люзняк-228x300.png 228w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Люзняк-114x150.png 114w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Люзняк.png 679w"
-                    sizes="(max-width: 228px) 100vw, 228px" /></noscript> </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div>
-            <div class="service-item">
-              <a href="https://zemocenka.com/wp-content/uploads/2017/05/%D0%92%D1%96%D0%B4%D0%B3%D1%83%D0%BA-%D0%BD%D0%BE%D1%82%D0%B0%D1%80%D1%96%D1%83%D1%81%D0%B0-%D0%A1%D0%B5%D0%BB%D1%96%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BE%D0%B2%D0%B0.png"
-                class="service-item-image" data-lightbox="roadtrip">
-                <img width="228" height="300" alt="" loading="lazy"
-                  data-srcset="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Селіверстова-228x300.png 228w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Селіверстова-114x150.png 114w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Селіверстова.png 679w"
-                  data-src="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Селіверстова-228x300.png"
-                  data-sizes="(max-width: 228px) 100vw, 228px"
-                  class="attachment-medium size-medium wp-post-image lazyloaded"
-                  src="./Інститут незалежної експертної оцінки рухомого та нерухомого майна_files/Відгук-нотаріуса-Селіверстова-228x300.png"
-                  sizes="(max-width: 228px) 100vw, 228px"
-                  srcset="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Селіверстова-228x300.png 228w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Селіверстова-114x150.png 114w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Селіверстова.png 679w"><noscript><img
-                    width="228" height="300"
-                    src="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Селіверстова-228x300.png"
-                    class="attachment-medium size-medium wp-post-image" alt="" loading="lazy"
-                    srcset="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Селіверстова-228x300.png 228w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Селіверстова-114x150.png 114w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Селіверстова.png 679w"
-                    sizes="(max-width: 228px) 100vw, 228px" /></noscript> </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div>
-            <div class="service-item">
-              <a href="https://zemocenka.com/wp-content/uploads/2017/05/%D0%92%D1%96%D0%B4%D0%B3%D1%83%D0%BA-%D0%BD%D0%BE%D1%82%D0%B0%D1%80%D1%96%D1%83%D1%81%D0%B0-%D0%9C%D0%B0%D0%B7%D1%83%D1%80%D1%87%D1%83%D0%BA.jpg"
-                class="service-item-image" data-lightbox="roadtrip">
-                <img width="228" height="300" alt="" loading="lazy"
-                  data-srcset="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Мазурчук-228x300.jpg 228w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Мазурчук-114x150.jpg 114w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Мазурчук.jpg 679w"
-                  data-src="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Мазурчук-228x300.jpg"
-                  data-sizes="(max-width: 228px) 100vw, 228px"
-                  class="attachment-medium size-medium wp-post-image lazyloaded"
-                  src="./Інститут незалежної експертної оцінки рухомого та нерухомого майна_files/Відгук-нотаріуса-Мазурчук-228x300.jpg"
-                  sizes="(max-width: 228px) 100vw, 228px"
-                  srcset="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Мазурчук-228x300.jpg 228w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Мазурчук-114x150.jpg 114w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Мазурчук.jpg 679w"><noscript><img
-                    width="228" height="300"
-                    src="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Мазурчук-228x300.jpg"
-                    class="attachment-medium size-medium wp-post-image" alt="" loading="lazy"
-                    srcset="https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Мазурчук-228x300.jpg 228w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Мазурчук-114x150.jpg 114w, https://zemocenka.com/wp-content/uploads/2017/05/Відгук-нотаріуса-Мазурчук.jpg 679w"
-                    sizes="(max-width: 228px) 100vw, 228px" /></noscript> </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="testimonials frontpage">
-    <div class="container">
-      <h3 class="text-center text-uppercase">
-        Статті </h3>
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-
-          <article id="post-1982"
-            class="post-1982 post type-post status-publish format-standard has-post-thumbnail hentry category-articles">
-            <div class="single-blog-post">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="blog-thumb"
-                    style="background-image: url(https://zemocenka.com/wp-content/uploads/2018/04/Osobennosty-otsenky-zemelnyh-uchastkov-v-Ukrayne.jpg)">
-                  </div>
-                </div>
-
-                <div class="col-md-6">
-                  <div class="blog-desc">
-                    <!-- <div class="post-date">
-																	</div> -->
-                    <h3>
-                      <a href="https://zemocenka.com/osoblyvosti-otsinky-zemelnyh-dilyanok-v-ukrayini/">
-                        Особливості оцінки земельних ділянок в Україні </a>
-                    </h3>
-
-                    <div class="blog-excerpt">
-                      <p>Земля – ​​обмежений природний ресурс, з яким пов’язані різні сфери
-                        діяльності людини. У зв’язку з цим вона представляє високу цінність
-                        і на неї завжди є попит. Оскільки їй присвоюється певна вартість,
-                        оцінка землі необхідна як для економіки, так і людського суспільства
-                        в цілому. Вона необхідна для ефективного управління в даній сфері і
-                        встановленні обгрунтованих податків […]</p>
-                    </div>
-
-                    <a href="https://zemocenka.com/osoblyvosti-otsinky-zemelnyh-dilyanok-v-ukrayini/"
-                      class="blog-readmore-btn">
-                      Детальніше </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-        <div class="col-md-8 col-md-offset-2">
-
-          <article id="post-1974"
-            class="post-1974 post type-post status-publish format-standard has-post-thumbnail hentry category-articles">
-            <div class="single-blog-post">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="blog-thumb"
-                    style="background-image: url(https://zemocenka.com/wp-content/uploads/2017/12/Osoblyvosti-otsinky-kvartyry.jpg)">
-                  </div>
-                </div>
-
-                <div class="col-md-6">
-                  <div class="blog-desc">
-                    <!-- <div class="post-date">
-																	</div> -->
-                    <h3>
-                      <a href="https://zemocenka.com/osnovni-kryteriyi-vyznachennya-vartosti-kvartyry/">
-                        Основні критерії визначення вартості квартири </a>
-                    </h3>
-
-                    <div class="blog-excerpt">
-                      <p>Рано чи пізно кожна людина задається питанням про вартість своєї
-                        нерухомості. І зовсім неважливо, чи замислюється вона про купівлю
-                        квартири, її продаж, передача в оренду або поділ. Насправді, якісна
-                        оцінка ринкової вартості квартири стоїть на чолі кута при виникненні
-                        багатьох юридичних ситуацій, якими наповнена наша життєдіяльність.
-                        Недооцінюйте такі моменти, особливо якщо дорогоцінний об’єкт
-                        знаходиться “в […]</p>
-                    </div>
-
-                    <a href="https://zemocenka.com/osnovni-kryteriyi-vyznachennya-vartosti-kvartyry/"
-                      class="blog-readmore-btn">
-                      Детальніше </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="testimonials frontpage seo">
-    <div class="container">
-      <div class="row">
-        <article id="post-99" class="col-md-12 post-99 page type-page status-publish hentry">
-          <h1 style="text-align: justify;">Професійна оцінка землі і всіх форм майна в найкоротші терміни
-          </h1>
-          <p style="text-align: justify;"><strong>Експертна оцінка землі</strong> – нагальне питання і
-            розповсюджена процедура, особливо для власників ділянок у Києві та Київській області, де
-            спостерігаються активні торговельні операції з земельними ресурсами, що багато в чому
-            обумовлює нестабільність ціни на сотку. Визначити адекватну вартість земельної ділянки
-            набагато складніше, ніж здається на перший погляд: експерт повинен виходити не тільки з
-            міркувань віддаленості до столиці і площі, а й враховувати масу супутніх факторів: (рельєф,
-            екологічний стан району, наявність доріг і транспорту поблизу, можливість забудови та ін.).
-            Крім того, нормативна оцінка землі передбачає жорстке дотримання встановленого порядку
-            процедури та оформлення паперів.</p>
-          <p style="text-align: justify;">Враховуючи складність і багатогранність експертної оцінки, ми
-            рекомендуємо дізнатися вартість вашої ділянки, скориставшись послугами нашої компанії. На
-            рахунку наших експертів – тисячі проведених оцінок для різних земельних ділянок. При цьому
-            співробітники працюють дуже швидко і надають вам офіційний звіт про експертизу. Даний
-            документ може бути наданий до суду або в кредитно-банкові структури.</p>
-          <h2 style="text-align: justify;">Оцінка нерухомості</h2>
-          <p style="text-align: justify;"><strong>Експертна оцінка нерухомості</strong> – одна з
-            найпоширеніших послуг нашої компанії, що виникла після того як вітчизняні банки почали
-            кредитувати фізичних осіб під заставу нерухомості. Ціна на житлові та нежитлові форми
-            нерухомості визначається як узагальнення серії найважливіших параметрів (ринкові ціни,
-            поверховість, квадратура, висота стель та ін.). Також оціночні роботи передбачають складання
-            документальної звітності, яка матиме офіційний статус в більшості державних структур. Ми
-            ретельно врахуємо всі фактори, що можуть вплинути на цінність об’єкта, складемо детальний
-            звіт та затвердимо його у всіх необхідних інстанціях.</p>
-          <h2 style="text-align: justify;">Оцінка рухомого майна</h2>
-          <p style="text-align: justify;">Оцінка рухомого майна (насамперед – автомобілів та спеціального
-            обладнання) користується в Києві та області попитом не меншим, ніж аналогічні процедури з
-            нерухомістю. Разом з тим, замовник повинен визначити для себе тип установлюваної вартості
-            даного майна. Якщо ви недостатньо досвідчені в подібних випадках, фахівці компанії охоче
-            допоможуть вам. Ми разом створимо технічне завдання, намітимо можливі шляхи його виконання і
-            самі ж втілимо результати робіт в життя. Наші послуги мають найважливіше значення при
-            торгових маніпуляціях з об’єктом, заставних операціях, виникненні страхових випадків або
-            судових спорів.</p>
-          <h3 style="text-align: justify;">Землевпорядкування</h3>
-          <p style="text-align: justify;">Купівля земельної ділянки – це тільки початок, особливо якщо ви
-            плануєте будівництво дачного будиночка або капітального житла. Щоб облаштуватися легально,
-            вам доведеться пережити <strong>землевпорядкування</strong> зі збором документів, ходінням
-            по інстанціях, тривалими годинами чекання у чергах, боязню отримати відмову чиновника. Ми
-            позбавимо вас від втрат часу і все зробимо самі. У штаті нашого ТОВ успішно працюють
-            справжні фахівці у сфері кадастру, професійні геодезисти, досвідчені проектувальники і
-            маститі юристи, здатні дуже оперативно отримати результати, оформити їх у формі пакету
-            документів і підтвердити в усіх інстанціях. Ми створимо проект виведення ділянки з державних
-            ресурсів на вашу користь, проведемо повний спектр геодезичних робіт і при необхідності
-            змінимо цільове призначення землі. Отримавши ці документи на руки, ви можете починати
-            будівництво на своїй ділянці.</p>
-          <h3 style="text-align: justify;">Послуги БТІ</h3>
-          <p style="text-align: justify;">Навіть якщо ви отримали нерухомість у спадок, вона юридично не
-            вважається вашим: для того щоб мати можливість продати майно або вносити до нього які-небудь
-            зміни, вам будуть потрібні права власності на наділ і техпаспорт ділянки. Ці папери можна
-            отримати в Бюро Технічної інвентаризації, однак цей шлях – вкрай довгий. Набагато простіше і
-            швидше буде замовити послуги БТІ в нашому ТОВ: ми негайно займемося вашими документами, а по
-            закінченні роботи узаконимо їх, відвідавши відділення архітектури та містобудування.</p>
-          <h3 style="text-align: justify;">Чому варто обрати саме нас</h3>
-          <p style="text-align: justify;">Існує маса факторів, які виділяють нашу компанію серед
-            конкурентів.</p>
-          <ol style="text-align: justify;">
-            <li>Ми успішно працюємо на ринку країни з 2003 року.</li>
-            <li>Компанія охоплює практично весь список можливих оцінок майна.</li>
-            <li>За плечима наших співробітників – роки досвіду і постійне підвищення власної
-              кваліфікації.</li>
-            <li>Всебічний консалтинг клієнтів.</li>
-            <li>Прозорі договірні умови.</li>
-            <li>Наші послуги є фінансово доступними.</li>
-          </ol>
-          <p style="text-align: justify;">Звернення до нас дозволить вам оперативно і недорого оформити
-            будь-які документи на своє майно і забути назавжди про рутинну паперову роботу.</p>
-          <h4 style="text-align: justify;">Оціночні послуги</h4>
-          <ul style="text-align: justify;">
-            <li>Експертна грошова оцінка земельних ділянок;</li>
-            <li>Експертна оцінка нерухомості (квартир, будинків, нежитлових приміщень);</li>
-            <li>Експертна оцінка рухомого майна (машин та обладнання, транспортних засобів, літальних
-              апаратів, повітряних суден, судноплавних засобів та інших рухомих речей);</li>
-            <li>Експертна оцінка цілісних майнових комплексів;</li>
-            <li>Експертна оцінка нематеріальних активів (майнових прав, цінних паперів та акцій, прав
-              інтелектуальної власності;</li>
-            <li>Експертна оцінка збитків (затоплення, пожежі, стихійних лих);</li>
-          </ul>
-          <h4 class="art-postheader main_title" style="text-align: justify;">Послуги БТІ</h4>
-          <ul style="text-align: justify;">
-            <li>Виготовлення технічних паспортів БТІ;</li>
-            <li>Реєстрація права власності;</li>
-            <li>Узаконення самовільної забудови;;</li>
-            <li>Консультації з питань реєстрації та інвентаризації всіх типів;</li>
-          </ul>
-          <h4 class="art-postheader main_title" style="text-align: justify;">Землеподрядні роботи</h4>
-          <ul class="main_ul">
-            <li style="text-align: justify;">Приватизація земельних ділянок;</li>
-            <li style="text-align: justify;">Розподіл та об’єднання земельних ділянок;</li>
-            <li style="text-align: justify;">Заходи для оформлення правовстановлюючих документів на
-              земельні ділянки;</li>
-            <li style="text-align: justify;">Переведення земельної ділянки у тимчасове
-              користування(оренда), або у приватну власність;</li>
-            <li style="text-align: justify;">Відновлення документів на землю, які були втрачені;</li>
-            <li style="text-align: justify;">Оформлення кадастрової документації на землю;</li>
-            <li style="text-align: justify;">Оформлення документів на інвентаризацію різних категорій
-              земель;</li>
-            <li style="text-align: justify;">Оформлення технічних документацій землеустрою щодо
-              встановлення меж земельної ділянки на місцевості;</li>
-            <li style="text-align: justify;">Розрахунок сільськогосподарських та лісогосподарських втрат
-              на виробництві;</li>
-            <li style="text-align: justify;">Межування земель державної власності та комунальної у
-              населених пунктах;</li>
-            <li style="text-align: justify;">Впорядкування угідь та еколого-економічне обґрунтування
-              сівозміни;</li>
-            <li style="text-align: justify;">Визначення територіальних меж, що відноситься до
-              природно-заповідного фонду;</li>
-            <li style="text-align: justify;">Реєстрація ділянок територіальних громад, комунальної
-              власності;</li>
-            <li style="text-align: justify;">Зміна і межування адміністративно-територіальних утворень;
-            </li>
-            <li style="text-align: justify;">Створення схем розташування та межування ділянок;</li>
-            <li style="text-align: justify;">Розробка схем землеустрою і техніко-економічних
-              обґрунтувань охорони та використання земель адміністративно-територіальних утворень;
-            </li>
-            <li style="text-align: justify;">Нормативна грошова оцінка земельних ділянок за межами
-              населеного пункту;</li>
-            <li style="text-align: justify;">Нормативна грошова оцінка населених пунктів;</li>
-          </ul>
-        </article>
-      </div>
-    </div>
-  </section>
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-2 col-sm-6">
           <div class="logo">
-            <a href="https://zemocenka.com/">
-              <img alt="" title="" data-src="https://zemocenka.com/wp-content/uploads/2017/06/ZemOcenka.png"
-                class=" ls-is-cached lazyloaded"
-                src="./Інститут незалежної експертної оцінки рухомого та нерухомого майна_files/ZemOcenka.png"><noscript><img
-                  src="https://zemocenka.com/wp-content/uploads/2017/06/ZemOcenka.png" alt="" title="" /></noscript>
+            <a href="https://zem-price.web.app/">
+              <img
+                alt=""
+                title=""
+                data-src="https://zemocenka.com/wp-content/uploads/2017/06/ZemOcenka.png"
+                class="ls-is-cached lazyloaded"
+                src="./Інститут незалежної експертної оцінки рухомого та нерухомого майна_files/ZemOcenka.png"
+              /><noscript
+                ><img
+                  src="https://zemocenka.com/wp-content/uploads/2017/06/ZemOcenka.png"
+                  alt=""
+                  title=""
+              /></noscript>
             </a>
           </div>
         </div>
-        <div class="col-md-3 col-md-push-7 col-sm-6">
-
-        </div>
+        <div class="col-md-3 col-md-push-7 col-sm-6"></div>
         <div class="col-md-6 col-md-offset-1 col-md-pull-3 col-sm-12">
           <div class="row">
             <div class="col-sm-6">
@@ -1050,8 +746,9 @@
                 <ul>
                   <li>
                     <i class="fa fa-map-marker"></i>
-                    м. Київ, вул. Михайла Коцюбинського, 4Б, оф. 4
+                    м. Херсон, вул. Миру, 33, оф. 1
                   </li>
+                  <li><i class="fa fa-clock-o"></i>+38(095)-693-57-93</li>
                 </ul>
               </div>
 
@@ -1060,8 +757,8 @@
                 <ul>
                   <li>
                     <i class="fa fa-clock-o"></i>
-                    пн-пт з 09:00 - 18:00;<br>
-                    сб-нд вихідний день<br>
+                    пн-пт з 09:00 - 18:00;<br />
+                    сб-нд вихідний день<br />
                   </li>
                 </ul>
               </div>
@@ -1072,48 +769,48 @@
                 <h4 class="text-uppercase">Послуги компанії</h4>
                 <div id="links_widget-2" class="widget widget_links_widget">
                   <ul class="menu">
-                    <li><a href="https://zemocenka.com/ekspertna-ocenka-zemelnih-dilyanok/"><span
-                          class="fa fa-check"></span> Експертна оцінка земельних
-                        ділянок</a></li>
-                    <li><a href="https://zemocenka.com/ekspertna-ocinka-neruxomogo-majna/"><span
-                          class="fa fa-check"></span> Експертна оцінка нерухомого
-                        майна</a></li>
-                    <li><a href="https://zemocenka.com/ekspertna-ocinka-ruxomogo-majna/"><span
-                          class="fa fa-check"></span> Експертна оцінка рухомого майна</a>
+                    <li>
+                      <a
+                        href="https://zem-price.web.app/ekspertna-ocenka-zemelnih-dilyanok/"
+                        ><span class="fa fa-check"></span> Експертна оцінка
+                        земельних ділянок</a
+                      >
                     </li>
-                    <li><a href="https://zemocenka.com/kadastrova-ocinka-zemli/"><span class="fa fa-check"></span>
-                        Кадастрова оцінка землі</a></li>
-                    <li><a href="https://zemocenka.com/ocinka-komercijnoyi-neruxomosti/"><span
-                          class="fa fa-check"></span> Оцінка комерційної нерухомості</a>
+                    <li>
+                      <a
+                        href="https://zem-price.web.app/ekspertna-ocinka-neruxomogo-majna/"
+                        ><span class="fa fa-check"></span> Експертна оцінка
+                        нерухомого майна</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://zem-price.web.app/ekspertna-ocinka-ruxomogo-majna/"
+                        ><span class="fa fa-check"></span> Експертна оцінка
+                        рухомого майна</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://zem-price.web.app/kadastrova-ocinka-zemli/"
+                        ><span class="fa fa-check"></span> Кадастрова оцінка
+                        землі</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://zem-price.web.app/ocinka-komercijnoyi-neruxomosti/"
+                        ><span class="fa fa-check"></span> Оцінка комерційної
+                        нерухомості</a
+                      >
                     </li>
                   </ul>
-
                 </div>
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
     </div>
   </footer>
 </div>
-<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div>
-<div id="lightbox" class="lightbox" style="display: none;">
-  <div class="lb-outerContainer">
-    <div class="lb-container"><img class="lb-image"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
-      <div class="lb-nav"><a class="lb-prev" href="https://zemocenka.com/"></a><a class="lb-next"
-          href="https://zemocenka.com/"></a></div>
-      <div class="lb-loader"><a class="lb-cancel"></a></div>
-    </div>
-  </div>
-  <div class="lb-dataContainer">
-    <div class="lb-data">
-      <div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div>
-      <div class="lb-closeContainer"><a class="lb-close"></a></div>
-    </div>
-  </div>
-</div>
-<!-- </body>  -->

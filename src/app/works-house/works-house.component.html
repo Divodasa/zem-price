@@ -1,0 +1,569 @@
+<section class="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div
+            class="breadcrumbs"
+            itemscope=""
+            itemtype="http://schema.org/BreadcrumbList"
+          >
+            <span
+              itemprop="itemListElement"
+              itemscope=""
+              itemtype="http://schema.org/ListItem"
+              ><a
+                class="breadcrumbs__link"
+                [routerLink]="''"
+                itemprop="item"
+                ><span itemprop="name">Оцінка нерухомості</span></a
+              ><meta itemprop="position" content="1" /></span
+            ><span class="breadcrumbs__separator"> › </span
+            ><span class="breadcrumbs__current"
+              >Оцінка приватного будинку</span
+            >
+          </div>
+          <!-- .breadcrumbs -->
+        </div>
+      </div>
+      <div class="row">
+        <aside class="col-sm-3">
+          <!-- <div
+              id="icl_lang_sel_widget-2"
+              class="widget widget_icl_lang_sel_widget"
+            >
+              <div
+                class="wpml-ls-sidebars-sidebar wpml-ls wpml-ls-legacy-dropdown js-wpml-ls-legacy-dropdown"
+                id="lang_sel"
+              >
+                <ul>
+                  <li
+                    tabindex="0"
+                    class="wpml-ls-slot-sidebar wpml-ls-item wpml-ls-item-uk wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-dropdown"
+                  >
+                    <a
+                      href="#"
+                      class="js-wpml-ls-item-toggle wpml-ls-item-toggle lang_sel_sel icl-uk"
+                      ><img
+                        alt=""
+                        data-src="https://zemocenka.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/uk.png"
+                        class="wpml-ls-flag iclflag ls-is-cached lazyloaded"
+                        src="https://zemocenka.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/uk.png"
+                      /><noscript
+                        ><img
+                          class="wpml-ls-flag iclflag"
+                          src="https://zemocenka.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/uk.png"
+                          alt="" /></noscript
+                      ><span class="wpml-ls-native icl_lang_sel_native"
+                        >Українська</span
+                      ></a
+                    >
+    
+                    <ul class="wpml-ls-sub-menu">
+                      <li
+                        class="icl-ru wpml-ls-slot-sidebar wpml-ls-item wpml-ls-item-ru wpml-ls-last-item"
+                      >
+                        <a
+                          href="https://zemocenka.com/ru/ekspertnaya-ocenka-nedvigimosti/"
+                          class="wpml-ls-link"
+                          ><img
+                            alt=""
+                            data-src="https://zemocenka.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png"
+                            class="wpml-ls-flag iclflag ls-is-cached lazyloaded"
+                            src="https://zemocenka.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png"
+                          /><noscript
+                            ><img
+                              class="wpml-ls-flag iclflag"
+                              src="https://zemocenka.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png"
+                              alt="" /></noscript
+                          ><span
+                            class="wpml-ls-native icl_lang_sel_native"
+                            lang="ru"
+                            >Русский</span
+                          ></a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div> -->
+          <div id="menu_widget-2" class="widget widget_menu_widget">
+            <div class="accordion-menu">
+              <!-- START ACCORDION -->
+              <div class="accordion" id="menu-sidebar-menu">
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <a
+                      class="accordion-toggle"
+                      data-toggle="collapse"
+                      data-parent="#menu-sidebar-menu"
+                      href="#acc-otsinochni-roboty"
+                    >
+                      Оціночні роботи
+                    </a>
+                  </div>
+                  <div
+                    id="acc-otsinochni-roboty"
+                    class="accordion-body collapse in"
+                  >
+                  <div class="accordion-inner">
+                    <ul class="accordion-menu">
+                      <li>
+                        <span class="fa fa-check"></span>
+                        <a
+                          [routerLink]="'/works-ground'"
+                          >Експертна оцінка земельних ділянок</a
+                        >
+                      </li>
+                      <li>
+                        <span class="fa fa-check"></span>
+                        <a
+                        [routerLink]="'/works-concrete'"
+                          >Експертна оцінка нерухомого майна</a
+                        >
+                      </li>
+                      <li>
+                        <span class="fa fa-check"></span>
+                        <a
+                        [routerLink]="'/works-village'"
+                          >Оцінка земель сільськогосподарського призначення</a
+                        >
+                      </li>
+                    <!-- <li>
+                        <span class="fa fa-check"></span>
+                        <a href="https://zemocenka.com/kadastrova-ocinka-zemli/"
+                          >Кадастрова оцінка землі</a
+                        >
+                      </li>
+                      <li>
+                        <span class="fa fa-check"></span>
+                        <a
+                          href="https://zemocenka.com/ekspertna-ocinka-ruxomogo-majna/"
+                          >Експертна оцінка рухомого майна</a
+                        >
+                      </li>
+                      <li>
+                        <span class="fa fa-check"></span>
+                        <a
+                          href="https://zemocenka.com/ocinka-zamiskoyi-neruxomosti/"
+                          >Оцінка заміської нерухомості</a
+                        >
+                      </li> -->
+                      <li class="active">
+                        <span class="fa fa-check"></span>
+                        <a
+                        [routerLink]="'/works-house'"
+                          >Оцінка приватного будинку</a
+                        >
+                      </li>
+                      <li>
+                        <span class="fa fa-check"></span>
+                        <a
+                        [routerLink]="'/works-refund'"
+                          >Експертна оцінка збитків</a
+                        >
+                      </li>
+                      <!-- <li>
+                        <span class="fa fa-check"></span>
+                        <a
+                          href="https://zemocenka.com/ocinka-chastki-v-kvartiri/"
+                          >Оцінка частки в квартирі</a
+                        >
+                      </li>
+                      <li>
+                        <span class="fa fa-check"></span>
+                        <a
+                          href="https://zemocenka.com/ocinka-komercijnoyi-neruxomosti/"
+                          >Оцінка комерційної нерухомості</a
+                        >
+                      </li>
+                      <li>
+                        <span class="fa fa-check"></span>
+                        <a
+                          href="https://zemocenka.com/ocinka-majna-pidpriyemstva/"
+                          >Оцінка майна підприємства</a
+                        >
+                      </li>
+                      <li>
+                        <span class="fa fa-check"></span>
+                        <a
+                          href="https://zemocenka.com/ocinka-majna-pri-rozluchenni/"
+                          >Оцінка майна при розлученні</a
+                        >
+                      </li>
+                      <li>
+                        <span class="fa fa-check"></span>
+                        <a href="https://zemocenka.com/ocinka-zastavnogo-majna/"
+                          >Оцінка заставного майна</a
+                        >
+                      </li>
+                      <li>
+                        <span class="fa fa-check"></span>
+                        <a href="https://zemocenka.com/ocinka-majna-dlya-sudu/"
+                          >Оцінка майна для суду</a
+                        >
+                      </li>
+                      <li>
+                        <span class="fa fa-check"></span>
+                        <a href="https://zemocenka.com/ocinka-majna-borzhnika/"
+                          >Оцінка майна боржника</a
+                        >
+                      </li>
+                      <li>
+                        <span class="fa fa-check"></span>
+                        <a
+                          href="https://zemocenka.com/ocinka-zbitku-vid-zatoplennya-kvartiri/"
+                          >Оцінка збитку від затоплення квартири</a
+                        >
+                      </li> -->
+                    </ul>
+                  </div>
+                  </div>
+                </div>
+  
+                <!-- <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <a
+                        class="accordion-toggle"
+                        data-toggle="collapse"
+                        data-parent="#menu-sidebar-menu"
+                        href="#acc-zemlevporyadni-roboty"
+                      >
+                        Землевпорядні роботи
+                      </a>
+                    </div>
+                    <div
+                      id="acc-zemlevporyadni-roboty"
+                      class="accordion-body collapse in"
+                    >
+                      <div class="accordion-inner">
+                        <ul class="accordion-menu">
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/tehnichna-dokumentatsiya-iz-zemleustroyu/"
+                              >Технічна документація із землеустрою</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/proekt-vidvedennya-zemelnoyi-dilyanky/"
+                              >Проект відведення земельної ділянки</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/proekt-na-zminu-cilovogo-priznachennya-zemli/"
+                              >Проект на зміну цільового призначення землі</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/kadastrovyj-plan-zemelnoji-dilyanky/"
+                              >Кадастровий план земельної ділянки</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/normatyvna-otsinka-zemelnyh-dilyanok/"
+                              >Нормативно грошова оцінка</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a href="https://zemocenka.com/geodezichni-roboti/"
+                              >Геодезичні роботи</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a href="https://zemocenka.com/obminni-fajly-xml/"
+                              >Обмінний файл xml</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/plan-podilu-zemelnoyi-dilyanky/"
+                              >План поділу земельної ділянки</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/chergovyj-kadastrovyj-plan-zemelnoyi-dilyanky/"
+                              >Черговий кадастровий план земельної ділянки</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/vynos-mezh-zemelnoyi-dilyanky-v-naturi/"
+                              >Винос меж земельної ділянки в натурі</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/vypravlennya-tehnichnoyi-pomylky-dzk/"
+                              >Виправлення технічної помилки ДЗК</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/oformlennya-zemelnoyi-chastky-payu/"
+                              >Оформлення земельної частки (паю)</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/vytyag-z-tehnichnoyi-dokumentatsiyi-pro-normatyvno-groshovu-otsinku-zemelnoyi-dilyanky/"
+                              >Витяг з технічної документації про нормативно-грошову
+                              оцінку земельної ділянки</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/vytyag-z-derzhavnogo-zemelnogo-kadastru/"
+                              >Витяг з Державного земельного кадастру</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/zvit-pro-yakisnu-harakterystyku-gruntovogo-pokryvu-zemelnoyi-dilyanky/"
+                              >Звіт про якісну характеристику ґрунтового покриву
+                              земельної ділянки</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/zvit-pro-silskogospodarski-vtraty-sprychyneni-vyluchennyam-silskogospodarskyh-ugid/"
+                              >Звіт про сільськогосподарські втрати спричинені
+                              вилученням сільськогосподарських угідь</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <a
+                        class="accordion-toggle"
+                        data-toggle="collapse"
+                        data-parent="#menu-sidebar-menu"
+                        href="#acc-poslugy-bti"
+                      >
+                        Послуги БТІ
+                      </a>
+                    </div>
+                    <div id="acc-poslugy-bti" class="accordion-body collapse in">
+                      <div class="accordion-inner">
+                        <ul class="accordion-menu">
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a href="https://zemocenka.com/poslugi-bti/"
+                              >Послуги БТI</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/vigotovlennya-texnichnix-pasportiv-bti/"
+                              >Виготовлення технічного паспорту БТІ</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <a
+                        class="accordion-toggle"
+                        data-toggle="collapse"
+                        data-parent="#menu-sidebar-menu"
+                        href="#acc-reyestratsijni-poslugy"
+                      >
+                        Реєстраційні послуги
+                      </a>
+                    </div>
+                    <div
+                      id="acc-reyestratsijni-poslugy"
+                      class="accordion-body collapse in"
+                    >
+                      <div class="accordion-inner">
+                        <ul class="accordion-menu">
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/derzhavna-reyestratsiya-prava-vlasnosti-na-neruhome-majno/"
+                              >Державна Реєстрація права власності на нерухоме
+                              майно</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/derzhreyestratsiya-yurosib-ta-fop/"
+                              >Юридичні особи, ФОП, громадські формування</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/vnesennya-zmin-ta-vypravlennya-tehnichnyh-pomylok/"
+                              >Внесення змін та виправлення технічних помилок</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/vytyag-z-yedr-yurydychnyh-osib-fop-ta-gromadskyh-formuvan/"
+                              >Витяг з ЄДР юридичних осіб, ФОП та громадських
+                              формувань</a
+                            >
+                          </li>
+                          <li>
+                            <span class="fa fa-check"></span>
+                            <a
+                              href="https://zemocenka.com/informatsiya-z-drrp-na-neruhome-majno/"
+                              >Інформація з ДРРП на нерухоме майно</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div> -->
+              </div>
+              <!-- END ACCORDION -->
+            </div>
+          </div>
+        </aside>
+        <div class="col-sm-9">
+            <article id="post-1275" class="post-1275 page type-page status-publish has-post-thumbnail hentry">
+                <h1 class="text-uppercase">Оцінка приватного будинку</h1>
+                                        <div class="row"><div class="col-md-12"><section class="profile"><div class="row"><div class="col-md-4"><div class="text-center"><img width="150" height="150" alt="" loading="lazy" data-srcset="https://zemocenka.com/wp-content/uploads/2017/09/Ruslan-Rudenko-150x150.jpg 150w, https://zemocenka.com/wp-content/uploads/2017/09/Ruslan-Rudenko-300x300.jpg 300w, https://zemocenka.com/wp-content/uploads/2017/09/Ruslan-Rudenko-768x768.jpg 768w, https://zemocenka.com/wp-content/uploads/2017/09/Ruslan-Rudenko.jpg 960w" data-src="https://zemocenka.com/wp-content/uploads/2017/09/Ruslan-Rudenko-150x150.jpg" data-sizes="(max-width: 150px) 100vw, 150px" class="img-circle wp-post-image ls-is-cached lazyloaded" src="https://zemocenka.com/wp-content/uploads/2017/09/Ruslan-Rudenko-150x150.jpg" sizes="(max-width: 150px) 100vw, 150px" srcset="https://zemocenka.com/wp-content/uploads/2017/09/Ruslan-Rudenko-150x150.jpg 150w, https://zemocenka.com/wp-content/uploads/2017/09/Ruslan-Rudenko-300x300.jpg 300w, https://zemocenka.com/wp-content/uploads/2017/09/Ruslan-Rudenko-768x768.jpg 768w, https://zemocenka.com/wp-content/uploads/2017/09/Ruslan-Rudenko.jpg 960w"><noscript><img width="150" height="150" src="https://zemocenka.com/wp-content/uploads/2017/09/Ruslan-Rudenko-150x150.jpg" class="img-circle wp-post-image" alt="" loading="lazy" srcset="https://zemocenka.com/wp-content/uploads/2017/09/Ruslan-Rudenko-150x150.jpg 150w, https://zemocenka.com/wp-content/uploads/2017/09/Ruslan-Rudenko-300x300.jpg 300w, https://zemocenka.com/wp-content/uploads/2017/09/Ruslan-Rudenko-768x768.jpg 768w, https://zemocenka.com/wp-content/uploads/2017/09/Ruslan-Rudenko.jpg 960w" sizes="(max-width: 150px) 100vw, 150px" /></noscript></div></div><div class="col-md-8"><div class="text-left"><h4 class="section-title">Безкоштовна консультація</h4><h4>Руденко Руслан</h4><div class="user-details">Незалежний експерт-оцінювач</div><div class="user-phones">
+                <p>
+                    <i class="fa fa-mobile"></i>
+                    <a href="tel:+38 (044) 209 08 16">
+                        +38 (044) 209 08 16
+                    </a>
+                </p>
+                <p>
+                    <i class="fa fa-mobile"></i>
+                    <a href="tel:+38 (097) 980 82 16">
+                        +38 (097) 980 82 16
+                    </a>
+                </p>
+                <p>
+                    <i class="fa fa-envelope-o"></i>
+                    <a href="mailto:zemocenka@ukr.net" rel="nofollow">
+                        zemocenka@ukr.net
+                    </a>
+                </p></div></div></div></div></section></div></div>
+<p style="text-align: justify;">Сьогодні максимальним попитом у арсеналі нашої компанії користується оцінка приватного будинку. Така популярність пояснюється, переважно, ростом інтересів щодо заміського житла у великих містах України, в тому числі – і у столиці. За великим рахунком, подібні послуги дуже схожі з процедурою оцінки квартир, однак деяка практична специфіка у випадку з приватним будинком все ж таки присутня.</p>
+<p style="text-align: justify;"></p><div class="price-table">
+<table>
+<tbody>
+<tr>
+<th>Оцінка приватного будинку</th>
+<th>Термін</th>
+<th>Вартість</th>
+</tr>
+<tr>
+<td>Оцінка приватного будинку</td>
+<td>1 день</td>
+<td>1000 грн.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<p></p>
+<h2 style="text-align: justify;">Навіщо замовляють оцінку приватного будинку</h2>
+<p style="text-align: justify;">Ситуацій, що вимагають висновку експерта щодо ринкової вартості житла, може виникати досить багато. Проте, найчастіше до нас звертаються у наступних випадках:</p>
+<ol style="text-align: justify;">
+<li>Розлучення, що супроводжується розділом житла. Якщо подружжя самостійно вирішує дану проблему, допомога експерта-оцінювача їм зазвичай не потрібна. У разі поділу через суд, дана процедура виконується у будь-якому випадку, в тому числі – примусові варіанти. Після отримання висновку спеціаліста щодо вартості нерухомості, можна його продавати, призначивши частки від одержаної виплати або зобов’язати одного з колишнього подружжя сплачувати компенсацію іншому.</li>
+<li>Процедури страхування. В даному випадку послуги оцінювача є обов’язковими. Саме за результатами експертної оцінки страхові компанії визначають суму внесків і розмір виплат при можливому виникненні страхового випадку.</li>
+<li>Оформлення спадщини на декількох спадкоємців. Оцінювати приватний будинок у Києві і області для даної ситуації бажано, майже обов’язково: саме так можна досягти справедливого розподілу між спадкоємцями. Розмір гонорару нотаріуса також залежить від загальної вартості успадкованого об’єкта.</li>
+<li>При передачі житлової нерухомості під заставу. Для того щоб звести до нуля власні ризики при невиплаті кредиту під заставу із завищеною вартістю, банк висуває вимогу про попередню незалежну експертизу вартості застави у переважній більшості випадків.</li>
+<li>Продаж або купівля приватного домоволодіння. Зазвичай оцінку при цьому ініціює покупець, але замовити її може лише власник. Процедура при оформленні договору не обов’язкова, однак наявність незалежного висновку безсумнівно сприяє прискоренню переговорів.</li>
+</ol>
+<h2 style="text-align: justify;">Від чого залежить прогнозована вартість будинку при його оцінці</h2>
+<p style="text-align: justify;">Ринкова вартість виводиться фахівцем після глибокого аналізу цілого ряду особливостей самого об’єкта і факторів зовнішнього впливу на його ціну. Ось – основні з них:</p>
+<ol style="text-align: justify;">
+<li>Площа, відведена під житлові приміщення.</li>
+<li>Розміри земельної ділянки під будинок і навколо нього (за наявності).</li>
+<li>Відстань до Києва.</li>
+<li>Специфіка «елітності» даного району.</li>
+<li>Наявність і рівень інфраструктурної мережі.</li>
+<li>Загальний стан об’єкта.</li>
+<li>Вид домоволодіння (котедж, таунхаус і т.д.).</li>
+<li>Особливості навколишнього ландшафту і наявність рекреаційних природних зон поблизу.</li>
+</ol>
+<h2 style="text-align: justify;">Основні документи, необхідні для оцінки приватного будинку</h2>
+<p style="text-align: justify;">Щоб висновок експерта був легітимним, вам доведеться надати йому копії наступних паперів:</p>
+<ul style="text-align: justify;">
+<li>Правовстановлюючий документ на сам будинок і земельну ділянку (договір дарування, свідоцтво про реєстрацію власності та ін.);</li>
+<li>БТІ техпаспорт, який містить план усіх поверхів будівлі;</li>
+<li>Довідка про суму витрат на утримання домоволодіння;</li>
+<li>Кадастровий план ділянки;</li>
+<li>Дані про сплату за експлуатацію ділянки;</li>
+<li>Інформація про підсобні будівлі та комунікації (не вимагає офіційної форми);</li>
+<li>Якщо будівля ремонтувалася – дані про вкладені на це кошти;</li>
+<li>Документи про обтяжуючі фактори (боргові зобов’язання);</li>
+<li>Копія паспорта замовника послуги.</li>
+</ul>
+<p style="text-align: justify;">Вартість оцінки дачного безпосередньо залежить від складності та обсягу робіт для експерта. Сума визначається індивідуально для кожного замовника і обговорюється до підписання договору сторонами.</p>
+<h2 style="text-align: justify;">Чому для оцінки будинку варто вибрати нашу компанію</h2>
+<p style="text-align: justify;">Ми – досвідчені гравці на ринку оціночних послуг в Києві.</p>
+<p style="text-align: justify;">Працюючи з нами, ви гарантовано отримаєте:</p>
+<ul>
+<li style="text-align: justify;">Оперативну роботу.</li>
+<li style="text-align: justify;">Досвідченого виконавця, який володіє та оперує десятками спеціальних методик.</li>
+<li style="text-align: justify;">Безкоштовний супутній консалтинг.</li>
+<li style="text-align: justify;">Повну відповідність виданого заключення законодавству України.</li>
+<li>Можливість провести оцінку будинку онлайн</li>
+</ul>
+<p><a href="https://zemocenka.com/ocinka-privatnogo-budinku/">оцінка будинку</a>, <a href="https://zemocenka.com/ocinka-privatnogo-budinku/">оцінка приватного будинку</a>, <a href="https://zemocenka.com/ocinka-privatnogo-budinku/">оцінка будинку для продажу</a>, <a href="https://zemocenka.com/ocinka-privatnogo-budinku/">оцінка будинку для дарування</a>, <a href="https://zemocenka.com/ocinka-privatnogo-budinku/">оцінка будинку для нотаріуса</a>.</p>
+<h2>Відповіді на поширені запитання</h2>
+<h3>Як проводиться оцінка будинку?</h3>
+<p>Вартість двох будинків однакової площі може значно відрізнятися в залежності від безлічі додаткових чинників: від місця розташування до наявності різного роду комунікацій. Для того щоб визначити правильну і вигідну ціну, необхідно звернутися за допомогою до експертів. Фахівці використовують два методи встановлення вартості об’єкта:</p>
+<ul>
+<li>порівняльний (коли експерти аналізують вартість схожих будинків в даній місцевості);</li>
+<li>витратний (розраховується сума грошей, вкладена в будівництво і забезпечення будинку).</li>
+</ul>
+<h3>Чи потрібна оцінка дачного будинку під час продажу?</h3>
+<p>При продажу дачної ділянки враховується дві ціни: вартість будинку та земельної ділянки. Перед продажем такого роду будинків на вартість вплине не тільки стан самого будинку, але і земля, яку можна використовувати для садівництва і сільськогосподарських цілей. Якщо ви сумніваєтеся і не можете самостійно встановити вигідну ціну для продажу дачі, скористайтеся послугами досвідченого оцінювача.</p>
+<h3>Які документи потрібно зібрати, щоб замовити оцінку будинку онлайн?</h3>
+<p>Щоб оформити грошову оцінку будинку онлайн, необхідно надати ряд документів:</p>
+<ul>
+<li>документи, що підтверджують права на будинок;</li>
+<li>БТІ паспорт;</li>
+<li>довідка про витрати на утримання будинку;</li>
+<li>дані про кошти, витрачені на ремонт;</li>
+<li>копія паспорта;</li>
+<li>кадастровий план ділянки;</li>
+<li>документи про боргові зобов’язання;</li>
+<li>інформація про підсобних приміщеннях.</li>
+</ul>
+<h3>Яка вартість онлайн послуг оцінки будинку?</h3>
+<p>Оцінка приватного будинку експертами компанії Zemocenka зазвичай займає один день. І вартість послуги становить 700 гривень. Але при обліку різних обставин процес експертизи може бути продовжений на кілька днів. У такому випадку ціна послуг експерта підбирається індивідуально для кожного клієнта.</p>
+            </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  

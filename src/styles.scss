@@ -8473,7 +8473,7 @@ footer .text-container li .fa {
 }
 
 header .header {
-    background-color: #2943a2;
+    background-color: #3f65ed;
     color: #fff;
     padding: 15px 0;
     width: 100%;
@@ -8574,7 +8574,7 @@ header .btn-callback {
 header .primary-menu {
     border-bottom: #2f1a55 1px solid;
     box-shadow: rgba(0, 0, 0, 0.6) 0 3px 3px 1px;
-    background-color: #314251;
+    background-color: #d1c725fa;
     border-top: 1px solid #11314d;
 }
 
@@ -8607,8 +8607,8 @@ header .navbar-nav > li {
 
 header .navbar-default .navbar-nav > li > a {
     font-family: "PT Sans Narrow", sans-serif;
-    font-size: 18px;
-    color: #fff;
+    font-size: 21px;
+    color: #ffffff;
     padding: 10px;
 }
 
@@ -8631,7 +8631,7 @@ header .navbar-default .navbar-nav > li > a:hover {
 }
 
 .background-image {
-    background-image: url(//zemocenka.com/wp-content/themes/zemocenka/assets/css/../images/bg-image.jpg);
+    background-image: url(assets/main.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -8639,7 +8639,7 @@ header .navbar-default .navbar-nav > li > a:hover {
 }
 
 .bg-pattern {
-    background-image: url(//zemocenka.com/wp-content/themes/zemocenka/assets/css/../images/bg-pattern.png);
+    background: rgba(0, 0, 0, .5);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -9517,7 +9517,10 @@ aside {
     overflow: hidden;
     display: -webkit-box;
 }
-
+.logo {
+    display: flex;
+    align-items: center;
+}
 .tab-content {
     padding: 15px 20px;
     margin-bottom: 10px;
